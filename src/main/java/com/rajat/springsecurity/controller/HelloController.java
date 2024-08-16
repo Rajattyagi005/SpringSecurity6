@@ -1,5 +1,6 @@
 package com.rajat.springsecurity.controller;
 
+import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -7,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 
 @GetMapping("/")
-    public String greet() {
-        return "Welcome to Spring security Rajat";
+    public String greet(HttpServletRequest httpServletRequest) {
+        return "Welcome to Spring security Rajat" + httpServletRequest.getSession().getId();
     }
 }
