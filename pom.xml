@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.rajat</groupId>
-    <artifactId>Part29-SpringSecEx</artifactId>
+    <artifactId>SpringSecurity</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Part29-SpringSecEx</name>
+    <name>SpringSecurity</name>
     <description>Part29-SpringSecEx</description>
     <url/>
     <licenses>
