@@ -1,6 +1,14 @@
 D:\Learning\JMS\springboot\springsecurity\springsecurity6\Part29-Spring Security 6 Getting Started\src\main\java\com\rajat\springsecurity\configuration\SecurityConfiguration.java
 D:\Learning\JMS\springboot\springsecurity\springsecurity6\Part29-Spring Security 6 Getting Started\src\main\java\com\rajat\springsecurity\controller\HelloController.java
 D:\Learning\JMS\springboot\springsecurity\springsecurity6\Part29-Spring Security 6 Getting Started\src\main\java\com\rajat\springsecurity\controller\StudentController.java
+D:\Learning\JMS\springboot\springsecurity\springsecurity6\Part29-Spring Security 6 Getting Started\src\main\java\com\rajat\springsecurity\controller\UserController.java
+D:\Learning\JMS\springboot\springsecurity\springsecurity6\Part29-Spring Security 6 Getting Started\src\main\java\com\rajat\springsecurity\entity\UserEntity.java
+D:\Learning\JMS\springboot\springsecurity\springsecurity6\Part29-Spring Security 6 Getting Started\src\main\java\com\rajat\springsecurity\mapper\UserMapper.java
 D:\Learning\JMS\springboot\springsecurity\springsecurity6\Part29-Spring Security 6 Getting Started\src\main\java\com\rajat\springsecurity\model\Student.java
-D:\Learning\JMS\springboot\springsecurity\springsecurity6\Part29-Spring Security 6 Getting Started\src\main\java\com\rajat\springsecurity\model\User.java
+D:\Learning\JMS\springboot\springsecurity\springsecurity6\Part29-Spring Security 6 Getting Started\src\main\java\com\rajat\springsecurity\model\UserPrincipal.java
+D:\Learning\JMS\springboot\springsecurity\springsecurity6\Part29-Spring Security 6 Getting Started\src\main\java\com\rajat\springsecurity\model\UserRegistrationDTO.java
+D:\Learning\JMS\springboot\springsecurity\springsecurity6\Part29-Spring Security 6 Getting Started\src\main\java\com\rajat\springsecurity\model\UserResponseDTO.java
+D:\Learning\JMS\springboot\springsecurity\springsecurity6\Part29-Spring Security 6 Getting Started\src\main\java\com\rajat\springsecurity\repository\UserRepository.java
+D:\Learning\JMS\springboot\springsecurity\springsecurity6\Part29-Spring Security 6 Getting Started\src\main\java\com\rajat\springsecurity\service\MyUserDetailsService.java
+D:\Learning\JMS\springboot\springsecurity\springsecurity6\Part29-Spring Security 6 Getting Started\src\main\java\com\rajat\springsecurity\service\UserService.java
 D:\Learning\JMS\springboot\springsecurity\springsecurity6\Part29-Spring Security 6 Getting Started\src\main\java\com\rajat\springsecurity\SpringSecurityApplication.java

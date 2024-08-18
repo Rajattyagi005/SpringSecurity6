@@ -1,6 +1,6 @@
 package com.rajat.springsecurity.service;
 
-import com.rajat.springsecurity.model.User;
+import com.rajat.springsecurity.entity.UserEntity;
 import com.rajat.springsecurity.model.UserPrincipal;
 import com.rajat.springsecurity.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +16,11 @@ public class MyUserDetailsService implements UserDetailsService {
     private UserRepository userRepository;
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        User user=userRepository.findByUsername(username);
-        return new UserPrincipal(user);
+        UserEntity userEntity=userRepository.findByUsername(username);
+        if(userEntity==null)
+        {
+            throw new UsernameNotFoundException("Username not found exception");
+        }
+        return new UserPrincipal(userEntity);
     }
 }

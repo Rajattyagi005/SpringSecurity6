@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
-@GetMapping("/")
+    @GetMapping("/welcome")
     public String greet(HttpServletRequest httpServletRequest) {
         return "Welcome to Spring security Rajat" + httpServletRequest.getSession().getId();
     }

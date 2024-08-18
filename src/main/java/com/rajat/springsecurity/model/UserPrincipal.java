@@ -1,5 +1,6 @@
 package com.rajat.springsecurity.model;
 
+import com.rajat.springsecurity.entity.UserEntity;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -8,10 +9,10 @@ import java.util.Collection;
 import java.util.Collections;
 
 public class UserPrincipal implements UserDetails {
-    private User user;
+    private UserEntity userEntity;
 
-    public UserPrincipal(User user) {
-        this.user = user;
+    public UserPrincipal(UserEntity userEntity) {
+        this.userEntity = userEntity;
     }
 
     @Override
@@ -21,12 +22,12 @@ public class UserPrincipal implements UserDetails {
 
     @Override
     public String getPassword() {
-        return user.getPassword();
+        return userEntity.getPassword();
     }
 
     @Override
     public String getUsername() {
-        return user.getUsername();
+        return userEntity.getUsername();
     }
 
     @Override
